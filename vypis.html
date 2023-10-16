@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-info">
+                <a href="index.html"><img src="images/logo.svg" alt=""></a>
+                <div class="dropdown-search-bar" >
+                    <input type="text" placeholder="Vyhledávání" onclick="dropDownSearchBar()">
+                    <button ><img src="images/vyhledavani.png" alt=""></button>
+                    <div class="dropdown-search-bar-content">
+                        <div>
+                            <div>
+                                <div>
+                                    <img src="images/image-1.png" alt="">
+                                    <h3>LAKTOBACÍLKY - dětské cucavé exp. 7/2018</h3>
+                                </div>
+                                <div>
+                                    <div>
+                                        <span>Klubová cena: <span>186 Kč</span></span>
+                                        <span class="basic-price">Běžná cena: 158Kč</span>
+                                    </div>
+                                    <span class="cart-icon"><img src="images/kosik-2.png" alt=""></span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div>
+                                <div>
+                                    <img src="images/image-1.png" alt="">
+                                    <h3>KŘEMÍK organický 15mg</h3>
+                                </div>
+                                <div>
+                                    <div>
+                                        <span>Klubová cena: <span>186 Kč</span></span>
+                                        <span class="basic-price">Běžná cena: 158Kč</span>
+                                    </div>
+                                    <span class="cart-icon"><img src="images/kosik-2.png" alt=""></span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div>
+                                <div>
+                                    <img src="images/image-1.png" alt="">
+                                    <h3>KŘEMÍK organický 15mg</h3>
+                                </div>
+                                <div>
+                                    <div>
+                                        <span>Klubová cena: <span>186 Kč</span></span>
+                                        <span class="basic-price">Běžná cena: 158Kč</span>
+                                    </div>
+                                    <span class="cart-icon"><img src="images/kosik-2.png" alt=""></span>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+
+                        <div class="dropdown-categories">
+                            <div>Kategorie</div>
+                            <div>
+                                <div>
+                                    <a href="#">Imunita, obranyschopnost</a>
+                                    <span>10</span>
+                                </div>
+                                <hr>
+                                <div>
+                                    <a href="#">Klouby, pohyb</a>
+                                    <span>35</span>
+                                </div>
+                                <hr>
+                                <div>
+                                    <a href="#">Laktobacily a bifidobakterie</a>
+                                    <span>21</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="login">
+                    <img src="images/user.png" alt="">
+                    <a href="">Přihlášení</a>
+                </div>
+                <div class="cart">
+                    <img src="images/kosik-1.png" alt=""><span>5</span>
+                    <a href="">1 598 Kč</a>
+                </div>
+                <div class="language">
+                    <span class="current">Cz</span>
+                    <span>De</span>
+                    <span>Ru</span>
+                </div>
+            </div>
+            <div class="menu-categories">
+                <div onclick="dropDownMenu()" class="menu-e-shop">
+                    <a href="#"><img src="images/hamburger.svg" alt=""></a>
+                    <div onclick="colorChanger()">E-shop</div>
+                    <div class="grid-menu-list-content">
+                        <ul>
+                            <li class="grid-item item1">
+                                <img src="images/pills-1.png" alt="">
+                                <a href="">Výhodná nabídka a novinky</a>
+                            </li>
+                            <li class="grid-item item2">
+                                <img src="images/pills-3.png" alt="">
+                                <a href="">Brusinky</a>
+                            </li>
+                            <li class="grid-item item3">
+                                <img src="images/pills-2.png" alt="">
+                                <a href="">Nervy, spánek</a>
+                            </li>
+                            <li class="grid-item item4">
+                                <img src="images/pills-3.png" alt="">
+                                <a href="">Pro ženy</a>
+                            </li>
+                            <li class="grid-item item5">
+                                <img src="images/pills-3.png" alt="">
+                                <a href="">FRUCTOLAX Ovoce&Vláknina</a>
+                            </li>
+                            <li class="grid-item item6">
+                                <img src="images/pills-3.png" alt="">
+                                <a href="">EXKLUZIVNĚ pouze v e-shopu</a>
+                            </li>
+                            <li class="grid-item item7">
+                                <img src="images/pills-2.png" alt="">
+                                <a href="">Imunita, obranyschopnost</a>
+                            </li>
+                            <li class="grid-item item8">
+                                <img src="images/pills-1.png" alt="">
+                                <a href="">Srdce, cholesterol</a>
+                            </li>
+                            <li class="grid-item item9">
+                                <img src="images/pills-2.png" alt="">
+                                <a href="">Pro muže</a>
+                            </li>
+                            <li class="grid-item item10">
+                                <img src="images/pills-1.png" alt="">
+                                <a href="">JAVOROVÝ SIRUP 100%</a>
+                            </li>
+                            <li class="grid-item item11">
+                                <img src="images/pills-2.png" alt="">
+                                <a href="">Laktobacily a bifidobakterie</a>
+                            </li>
+                            <li class="grid-item item12">
+                                <img src="images/pills-1.png" alt="">
+                                <a href="">Klouby, pohyb</a>
+                            </li>
+                            <li class="grid-item item13">
+                                <img src="images/pills-3.png" alt="">
+                                <a href="">Vitamíny, minerály</a>
+                            </li>
+                            <li class="grid-item item14">
+                                <img src="images/pills-1.png" alt="">
+                                <a href="">Pro děti</a>
+                            </li>
+                            <li class="grid-item item15">
+                                <img src="images/pills-2.png" alt="">
+                                <a href="">Slevy- Expirace</a>
+                            </li>
+                            <li class="grid-item item16">
+                                <div>Prostor pro reklamu</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <a href=""><img src="images/home.png" alt=""></a>
+                </div>
+                <div>
+                    Klub zdraví
+                </div>
+                <div>
+                    O nás
+                </div>
+                <div>
+                    Aktuality
+                </div>
+                <div>
+                    Kontakty
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-vypis">
+            <nav class="side-bar-menu">
+                <ul class="side-bar-menu-list">
+                    <li class="side-bar-menu-item">Naše produkty</li>
+
+                    <li class="side-bar-menu-item"><a href="">Výhodná nabídka a novinky</a></li>
+
+                    <li class="side-bar-menu-item"><a href="">Brusinky</a></li>
+
+                    <li class="side-bar-menu-item"><a href="">Nervy, spánek</a></li>
+
+                    <li class="side-bar-menu-item"><a href="">Pro ženy</a></li>
+
+                    <li class="side-bar-menu-item"><a href="">FRUCTOLAX Ovoce&Vláknina</a></li>
+
+                    <li class="side-bar-menu-item"><a href="">Exkluzivně pouze v e-shopu</a></li>
+
+                    <li class="side-bar-menu-item"><a href="">Imunita, obranyschopnost</a></li>
+
+                    <li class="side-bar-menu-item"><a href="">Srdce, cholesterol</a></li>
+
+                    <li class="side-bar-menu-item"><a href="">Pro muže</a></li>
+
+                    <li class="side-bar-menu-item"><a href="">JAVOROVÝ SIRUP 100%</a></li>
+
+                    <li class="side-bar-menu-item"><a href="">Laktobacily a bifidobakterie</a></li>
+
+                    <li class="side-bar-menu-item"><a href="">Klouby, pohyb</a></li>
+
+                    <li class="side-bar-menu-item"><a href="">Vitamíny, minerály</a></li>
+
+                    <li class="side-bar-menu-item"><a href="">Pro děti</a></li>
+
+                    <li class="side-bar-menu-item"><a href="">SLEVY- EXPIRACE</a></li>
+                </ul>
+            </nav>
+            <section class="category-info">
+                <div class="paragraph-info">
+                    <h1>LAKTOBACILY A BIFIDOBAKTERIE</h1>
+                    <p>Střevní mikroflóra každého člověka obsahuje probiotické i patogenní bakterie. Z probiotických převládají hlavně laktobacily a bifidobakterie. Probiotika jsou živé mikroorganizmy, které aplikovány v přiměřeném množství příznivě ovlivňují zdravotní stav hostitele.<br><br>
+                    Všechna probiotika Swiss Natural™ jsou plněna v rostlinných kapslích. Vyberte si z nabídky Swiss Natural® probiotika špičkové kvality pro celou rodinu - od kojenců po seniory.</p>
+                </div>
+                <div class="filter-bar">
+                    <span class="results">
+                        21 produktů
+                    </span>
+                    <div class="checkboxes-filter">
+                        <label for="skladem" class="checkbox-container">
+                            <input type="checkbox" name="skladem" id="skladem">&nbsp;&nbsp;Skladem
+                        </label>
+                        <label for="novinka" class="checkbox-container">
+                            <input type="checkbox" name="novinka" id="novinka">&nbsp;&nbsp;Novinka
+                        </label>
+                        <label for="akce" class="checkbox-container">
+                            <input type="checkbox" name="akce" id="akce">&nbsp;&nbsp;Akce
+                        </label>
+                    </div>
+                    <select name="select-filter" id="select-filter" class="select-filter">
+                        <option value="Nejprodávanější">Nejprodávanější</option>
+                        <option value="Nejnišší cena">Nejnišší cena</option>
+                        <option value="Nejvyšší cena">Nejvyšší cena</option>
+                        <option value="Novinka">Novinka</option>
+                    </select>
+                    <div class="display-method">
+                        <img src="images/icon_grid.svg" alt="">
+                        <img src="images/icon_list.svg" alt="">
+                    </div>
+                </div>
+                <div class="result-grid-list">
+                    <div>
+                        <div>
+                            <img src="images/image-1.png" alt="">
+                            <h3>LAKTOBACÍLKY - dětské cucavé exp. 7/2018</h3>
+                            <span>Balení: 30 tablet</span>
+                        </div>
+                        <div>
+                            <div>
+                                <span>Klubová cena: <span>186 Kč</span></span>
+                                <span>Běžná cena: 158Kč</span>
+                            </div>
+                            <span class="cart-icon"><img src="images/kosik-2.png" alt=""></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="images/image-1.png" alt="">
+                            <h3>Fructolax Ovoce&Vláknina Žvýkací kostky</h3>
+                            <span>Balení: 30 tablet</span>
+                        </div>
+                        <div>
+                            <div>
+                                <span>Klubová cena: <span>186 Kč</span></span>
+                                <span>Běžná cena: 158Kč</span>
+                            </div>
+                            <span class="cart-icon"><img src="images/kosik-2.png" alt=""></span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/foto-1.png" alt="">
+                        <div>
+                            <h2>Klub Swiss</h2>
+                            <p>Členství v KLUBU SWISS je zcela zdarma a k ničemu Vás nezavazuje.<br>
+                            <br>
+                            Zaregistrujte se i Vy a užívejte výhod!</p>
+                            <button>Více zde</button>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/foto-2.png" alt="">
+                        <div>
+                            <h2>Sleva na dětské produkty</h2>
+                            <p>Cucavé pastilky obsahující probiotika s příchutí pro děti od 3 let.</p>
+                            <button>Více zde</button>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="images/image-1.png" alt="">
+                            <h3>LAKTOBACÍLKY - dětské cucavé exp. 7/2018</h3>
+                            <span>Balení: 30 tablet</span>
+                        </div>
+                        <div>
+                            <div>
+                                <span>Klubová cena: <span>186 Kč</span></span>
+                                <span>Běžná cena: 158Kč</span>
+                            </div>
+                            <span class="cart-icon"><img src="images/kosik-2.png" alt=""></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="images/image-1.png" alt="">
+                            <h3>LAKTOBACÍLKY - dětské cucavé exp. 7/2018</h3>
+                            <span>Balení: 30 tablet</span>
+                        </div>
+                        <div>
+                            <div>
+                                <span>Klubová cena: <span>186 Kč</span></span>
+                                <span>Běžná cena: 158Kč</span>
+                            </div>
+                            <span class="cart-icon"><img src="images/kosik-2.png" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-menu">
+            <div>
+                <h4>Naše produkty</h4>
+                <div></div>
+                <ul>
+                    <li><img src="images/greater-than-solid.svg" alt="">Speciální nabídka</li>
+                    <li><img src="images/greater-than-solid.svg" alt="">Laktobacily a bifidobakterie</li>
+                    <li><img src="images/greater-than-solid.svg" alt="">Močové ústrojí, brusinky</li>
+                    <li><img src="images/greater-than-solid.svg" alt="">Imunitní systém</li>
+                    <li><img src="images/greater-than-solid.svg" alt="">Nervy, spánek Srdce</li>
+                    <li><img src="images/greater-than-solid.svg" alt="">Srdce, cholesterol</li>
+
+                </ul>
+            </div>
+            <div>
+                <h4 class="invisible">Naše produkty</h4>
+                <div class="invisible"></div>
+                <ul>
+                    <li><img src="images/greater-than-solid.svg" alt="">Klouby, pohyb</li>
+                    <li><img src="images/greater-than-solid.svg" alt="">Vitamíny, minerály</li>
+                    <li><img src="images/greater-than-solid.svg" alt="">Pro ženy</li>
+                    <li><img src="images/greater-than-solid.svg" alt="">Pro muže</li>
+                    <li><img src="images/greater-than-solid.svg" alt="">Pro děti</li>
+                    <li><img src="images/greater-than-solid.svg" alt="">Stáhněte si ceník</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Informace</h4>
+                <div></div>
+                <ul>
+                    <li><img src="images/greater-than-solid.svg" alt="">Obchodní podmínky</li>
+                    <li><img src="images/greater-than-solid.svg" alt="">Reklamační podmínky</li>
+                    <li><img src="images/greater-than-solid.svg" alt="">Kde koupíte</li>
+                    <li><img src="images/greater-than-solid.svg" alt="">Přečtěte si</li>
+                    <li><img src="images/greater-than-solid.svg" alt="">Prohlášení o cookies</li>
+                    <li><img src="images/greater-than-solid.svg" alt="">Zpracování osobních údajů</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Naše produkty</h4>
+                <div></div>
+                <span>Nenechte si ujít akční nabídky</span>
+                <div>
+                    <input type="email" id="email" placeholder="Zadejte váš e-mail"><button>Zasílat</button>
+                </div>
+                <div>
+                    <img src="images/Twitter.svg" alt="">
+                    <img src="images/Facebook.svg" alt="">
+                    <img src="images/Instagram.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div>© 2019 Naturevia – Všechna práva vyhrazena Vytvořil RTsoft<span>Vytvořil <u>RTsoft</u></span></div>
+    </footer>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
