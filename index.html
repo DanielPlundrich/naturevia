@@ -13,7 +13,7 @@
     <header>
         <nav>
             <div class="menu-info">
-                <a href="index.html"><img src="images/logo.svg" alt=""></a>
+                <a href="index.html" class="logo"><img src="images/logo.svg" alt=""></a>
                 <div class="dropdown-search-bar" >
                     <input type="text" placeholder="Vyhledávání" onclick="dropDownSearchBar()">
                     <button ><img src="images/vyhledavani.png" alt=""></button>
@@ -86,11 +86,11 @@
                 </div>
                 <div class="login">
                     <img src="images/user.png" alt="">
-                    <a href="">Přihlášení</a>
+                    <a href="#">Přihlášení</a>
                 </div>
                 <div class="cart">
                     <img src="images/kosik-1.png" alt=""><span>5</span>
-                    <a href="">1 598 Kč</a>
+                    <a href="#">1 598 Kč</a>
                 </div>
                 <div class="language">
                     <span class="current">Cz</span>
@@ -99,25 +99,48 @@
                 </div>
             </div>
             <div  class="menu-categories">
+                <div class="mobile-navbar">
+                    <div class="mobile-menu-button">
+                        <ul class="mobile-menu-toogle">
+                            <li onclick="dropDownMenuMobile()" class="menu-mobile-item hamburger-icon"><a href="#"><img src="images/hamburger.svg" alt=""><span>Menu</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="search-login-cart">
+                        <ul>
+                            <li><a href=""><img src="images/vyhledavani-mobile.png" alt=""></a></li>
+                            <li><a href=""><img src="images/user-mobile.png" alt=""></a></li>
+                            <li><a href=""><img src="images/kosik-mobile.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mobile-menu-dropdown">
+                    <ul>
+                        <li><a href="">E-shop</a></li>
+                        <li><a href="">Klub zdraví</a></li>
+                        <li><a href="">O nás</a></li>
+                        <li><a href="">Aktuality</a></li>
+                        <li><a href="">Kontakty</a></li>
+                    </ul>
+                </div>
                 <div class="category-navbar">
                     <ul class="category-navbar-list">
                         <li class="category-navbar-item" onclick="dropDownMenu()">
                             <a href="#" class="category-link"  ><img src="images/hamburger.svg" alt=""><span>E-shop</span></a>
                         </li>
                         <li class="category-navbar-item">
-                            <a href=""><img src="images/home.png" alt=""></a>
+                            <a href="#"><img src="images/home.png" alt=""></a>
                         </li>
                         <li class="category-navbar-item">
-                            <a href="">Klub zdraví</a>
+                            <a href="#">Klub zdraví</a>
                         </li>
                         <li class="category-navbar-item">
-                            <a href="">O nás</a>
+                            <a href="#">O nás</a>
                         </li>
                         <li class="category-navbar-item">
-                            <a href="">Aktuality</a>
+                            <a href="#">Aktuality</a>
                         </li>
                         <li class="category-navbar-item">
-                            <a href="">Kontakty</a>
+                            <a href="#">Kontakty</a>
                         </li>
                     </ul>
                 </div>
@@ -314,7 +337,7 @@
     <footer>
         <div class="footer-menu">
             <div class="column-1">
-                <h4>Naše produkty</h4>
+                <h4><img src="images/greater-than-solid.svg" alt="">Naše produkty</h4>
                 <div class="green-line"></div>
                 <ul class="footer-list">
                     <li><img src="images/greater-than-solid.svg" alt="">Speciální nabídka</li>
@@ -338,7 +361,7 @@
                 </ul>
             </div>
             <div class="column-3">
-                <h4>Informace</h4>
+                <h4><img src="images/greater-than-solid.svg" alt="">Informace</h4>
                 <div class="green-line"></div>
                 <ul class="footer-list">
                     <li><img src="images/greater-than-solid.svg" alt="">Obchodní podmínky</li>
@@ -366,7 +389,7 @@
         <div class="copyright">© 2019 Naturevia – Všechna práva vyhrazena Vytvořil RTsoft<span>Vytvořil <u>RTsoft</u></span></div>
     </footer>
     <script src="script.js"></script>
-
+   
 
 </body>
 </html>
