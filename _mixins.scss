@@ -12,3 +12,8 @@
     font-family: Roboto;
     font-weight:700;
 }
+
+@mixin font-family-light{
+    font-family: Roboto;
+    font-weight: 300;
+}
