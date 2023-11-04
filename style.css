@@ -593,12 +593,13 @@
 }
 .offer .offer-grid .offer-card {
   position: relative;
-  height: 370px;
   background: none;
   border: 0;
+  width: auto;
 }
 .offer .offer-grid .offer-card img {
   height: 370px;
+  width: 100%;
 }
 .offer .offer-grid .offer-card div {
   position: absolute;

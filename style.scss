@@ -673,11 +673,12 @@
 
         .offer-card{
             position: relative;
-            height: 370px;
             background: none;
             border: 0;
+            width: auto;
             img{
                 height: 370px;
+                width: 100%;
             }
             div{
                 position: absolute;
